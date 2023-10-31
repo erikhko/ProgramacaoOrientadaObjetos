@@ -1,0 +1,32 @@
+/* Estilos para o título */
+.title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 60px;
+  color: #007BFF;
+}
+
+/* Container para centralizar o título e os botões horizontalmente */
+.button-container {
+  text-align: center;
+  height: 100vh;
+}
+
+/* Estilo para os botões */
+.button {
+  width: 150px;
+  height: 150px;
+  border: none;
+  background-color: #007BFF;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 50%;
+  margin: 10px; /* Espaço entre os botões */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: inline-block; /* Isso coloca os botões na horizontal */
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
